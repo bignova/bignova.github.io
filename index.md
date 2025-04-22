@@ -10,6 +10,8 @@ My primary areas of interest lie in technologies such as large language models, 
 
 Currently, my focus is on understanding how these advanced technologies can effectively tackle specific challenges within vertical industries like news media, and how they can be better applied in innovative media products.
 
+A Terps fan. 🐢 🏈 🏀
+
 <br/>
 
 ## Experience
