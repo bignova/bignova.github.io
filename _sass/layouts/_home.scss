@@ -2,18 +2,18 @@
   .profile {
     text-align: center;
     margin-top: 3%;
-  
+
     .selfie {
       display: block;
       width: 120px;
       margin: 0 auto;
       border-radius: 100%;
     }
-  
+
     .info {
       margin-top: 1.5%;
       margin-bottom: 2%;
-  
+
       .title {
         font-size: 1.5rem;
         font-weight: bold;
@@ -26,6 +26,34 @@
     }
   }
 
+  .content {
+    .experience-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+        .experience-icon {
+          max-width: 40px;
+          max-height: 40px;
+          width: auto;
+          height: auto;
+          margin-bottom: 0rem;
+          margin-right: 1rem;
+          object-fit: contain;
+        }
+
+        .experience-content {
+          flex: 1;
+        }
+      }
+    }
+  }
+
   &-icon {
     margin-left: 1.3rem;
     line-height: 2rem;
@@ -33,5 +61,22 @@
 
   &-icon-text {
     margin-left: 0.8rem;
+  }
+
+  .social-icons li a span {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .social-icons li a span:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon */
+    color: $hover-color; /* Change the color on hover */
+  }
+
+  .fa-stack-1x.fa-inverse {
+    transition: color 0.3s ease;
+  }
+
+  .fa-stack-1x.fa-inverse:hover {
+    color: $white; /* Change the icon color on hover */
   }
 }

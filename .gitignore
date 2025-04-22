@@ -1,0 +1,29 @@
+# Jekyll specific
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby specific
+*.gem
+*.rbc
+.bundle
+vendor/
+Gemfile.lock
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node specific (if using Node for any part of the build process)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Other
+*.swp
