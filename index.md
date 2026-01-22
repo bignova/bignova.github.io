@@ -70,7 +70,8 @@ A Terps fan. 🐢 🏈 🏀
 
 <br/>
 
-## Research Interests
+## Papers
 
-- AI & Journalism Interdisciplinary Research
-- Domain Capability Evaluation & Benchmarking
+- **MAJI: A Multi-Agent Workflow for Augmenting Journalistic Interviews**  
+  Kaiwen Guo, Yimeng Wu  
+  *IJCNLP-AACL 2025* · [Paper](https://aclanthology.org/2025.ijcnlp-long.58/)
